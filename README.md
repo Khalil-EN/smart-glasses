@@ -302,6 +302,3 @@ This project started as an assistive smart-glasses prototype. The original imple
 
 The current `src/` directory reorganizes those ideas into smaller modules with clearer responsibilities. The `legacy/` directory is reserved for documentation and, if desired, the original prototype scripts.
 
-## Disclaimer
-
-This is an educational/prototype project. It should not be relied upon as the sole navigation or safety system for a person with a visual impairment.
