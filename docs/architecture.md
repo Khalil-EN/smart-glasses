@@ -95,17 +95,3 @@ This allows the microphone/camera, OCR processor, and obstacle detector to opera
 
 For a later deployment, these programs could be managed using `systemd` services so that they start automatically when the Raspberry Pi boots.
 
-## Why Google Drive?
-
-Google Drive is used as the communication bridge between the capture process and the OCR process.
-
-This was useful in the original prototype because it avoided implementing a dedicated local communication service.
-
-For a future implementation, Google Drive could be replaced by:
-
-- local files
-- MQTT
-- HTTP
-- WebSocket
-- a message queue
-- another local IPC mechanism
