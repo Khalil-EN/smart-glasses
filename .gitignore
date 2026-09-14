@@ -1,0 +1,32 @@
+# Environment and secrets
+.env
+credentials/
+service_account.json
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+
+# Generated runtime files
+captured_image.jpg
+received_image.jpg
+command.mp3
+ocr_output.mp3
+echange.txt
+
+# IDE/editor
+.vscode/
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
