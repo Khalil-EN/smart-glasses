@@ -199,19 +199,6 @@ python src/hardware/ultrasonic_sensor.py
 
 The ultrasonic sensor runs independently and activates the buzzer when an obstacle is closer than the configured threshold.
 
-## Important hardware note
-
-The original ultrasonic prototype used:
-
-```text
-TRIG = GPIO 14
-ECHO = GPIO 15
-BUZZER = GPIO 16
-```
-
-GPIO numbering is BCM numbering.
-
-**Do not connect a typical HC-SR04 ECHO output directly to a Raspberry Pi GPIO pin if it outputs 5 V.** Use an appropriate voltage divider or level shifter so the Raspberry Pi GPIO receives a safe voltage.
 
 ## Original workflow
 
