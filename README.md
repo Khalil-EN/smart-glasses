@@ -145,7 +145,6 @@ credentials/service_account.json
 8. Copy `.env.example` to `.env`.
 9. Fill in the required IDs and API key.
 
-Never commit the service-account JSON or `.env` file to GitHub.
 
 ## Configuration
 
